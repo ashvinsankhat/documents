@@ -1,17 +1,19 @@
 <details>
 <summary>**NodeJs To Python(Bonus-Engine APi)**</summary>:
-<summary> **1)Get Intro Banners for User :**</summary>
+    
+- **1)Get Intro Banners for User :**
+
     ```jsx
     {
-    				"url":"https://stagebonus.rummy777.com/bonus/api/get_active_banners_for_user/",
-    				method: 'POST',
-    				headers: { accept: 'application/json', 'content-type': 'application/json' },
-    				body: JSON.stringify({
-    					"event_type": "show_intro_banners",
-    					"new_user": false,
-    					"timestamp": "2023-08-17T06:35:25.449Z",
-    					"brand_id": "jaqk"
-    				})
+                    "url":"https://stagebonus.rummy777.com/bonus/api/get_active_banners_for_user/",
+                    method: 'POST',
+                    headers: { accept: 'application/json', 'content-type': 'application/json' },
+                    body: JSON.stringify({
+                        "event_type": "show_intro_banners",
+                        "new_user": false,
+                        "timestamp": "2023-08-17T06:35:25.449Z",
+                        "brand_id": "jaqk"
+                    })
     }
     ```
     
