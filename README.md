@@ -1,5 +1,6 @@
-- **NodeJs To Python(Bonus-Engine APi)**:
-- **1)Get Intro Banners for User :**
+<details>
+- <summary>**NodeJs To Python(Bonus-Engine APi)**</summary>:
+- <summary>**1)Get Intro Banners for User :**</summary>
     
     ```jsx
     {
@@ -164,3 +165,4 @@
     			body:
     }
     ```
+</details>
