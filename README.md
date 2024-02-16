@@ -1,7 +1,6 @@
 <details>
-- <summary>**NodeJs To Python(Bonus-Engine APi)**</summary>:
-- <summary>**1)Get Intro Banners for User :**</summary>
-    
+<summary>**NodeJs To Python(Bonus-Engine APi)**</summary>:
+<summary> **1)Get Intro Banners for User :**</summary>
     ```jsx
     {
     				"url":"https://stagebonus.rummy777.com/bonus/api/get_active_banners_for_user/",
