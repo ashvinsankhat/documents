@@ -167,7 +167,8 @@
               method: 'GET',
               headers: {
                     accept: 'application/json'
-              }body: JSON.stringify({
+              },
+                body: JSON.stringify({
                     {
                           "referral_code_type": "user_linked",
                           "user_deposit_amount": 100,
