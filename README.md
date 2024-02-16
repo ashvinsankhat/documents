@@ -162,11 +162,13 @@
 - **10)Get All Referrer Purchase Bonus:**
     
     ```jsx
-    { 
-    			url:"https://stagebonus.rummy777.com/api/referrer_purchase_bonus/",
-    			method: 'GET', 
-    			headers: { accept: 'application/json' } 
-    			body: JSON.stringify({                        
+        {
+              url: "<https://stagebonus.rummy777.com/api/referrer_purchase_bonus/>",
+              method: 'GET',
+              headers: {
+                    accept: 'application/json'
+              }body: JSON.stringify({
+                    {
                           "referral_code_type": "user_linked",
                           "user_deposit_amount": 100,
                           "user_deposit_timestamp": "2021-09-17T05:01:34+00:00",
@@ -178,7 +180,8 @@
                           "friend_lt_referral_bonus": 100,
                           "event_type": "referee_signup",
                           "brand_id": "fas_fas"
-                })
-    }
+                    }
+              })
+        }
     ```
 </details>
