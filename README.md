@@ -72,6 +72,9 @@
     				url:"https://stagebonus.rummy777.com/api/get_powercoins_config_summary/",
     				method: 'POST', 
     				headers: {accept: 'application/json'},
+                    body: JSON.stringify({                        
+                        "brand_id": "jaqk"
+                    })
     					
     }
     ```
@@ -163,7 +166,19 @@
     			url:"https://stagebonus.rummy777.com/api/referrer_purchase_bonus/",
     			method: 'GET', 
     			headers: { accept: 'application/json' } 
-    			body:
+    			body: JSON.stringify({                        
+                          "referral_code_type": "user_linked",
+                          "user_deposit_amount": 100,
+                          "user_deposit_timestamp": "2021-09-17T05:01:34+00:00",
+                          "referral_code": "nldi7r",
+                          "user_id": "6143139caa1c45e237c81009",
+                          "user_lt_deposit_count": 0,
+                          "friend_user_id": "6143139caa1c45e237c81009",
+                          "friend_club_level_id": 6,
+                          "friend_lt_referral_bonus": 100,
+                          "event_type": "referee_signup",
+                          "brand_id": "fas_fas"
+                })
     }
     ```
 </details>
